@@ -126,20 +126,21 @@ graph TD
 
 ```mermaid
 graph TD
-    A[Stakeholder Discovery + POS Audit]
-    A --> B[Requirements (Inventory + Orders + Loyalty)]
-    B --> C[JIRA Tickets / GitHub Issues]
-    C --> D[Test Case Generation (UAT + Regression)]
-    D --> E1[InventorySync: SKU + Variant Testing]
-    D --> E2[OrderBuilder: Frontend + API Flow]
-    D --> E3[Loyalty Import: Customer Mapping]
-    E1 --> F[PowerShell QA + R Dashboards]
-    E2 --> G[Visual Snapshots + Swagger API Tests]
-    E3 --> H[GitHub Actions + Loyalty Integrity Dash]
-    F --> I[Anomaly Reports + GitHub Issues]
+    A["Stakeholder Discovery and POS Audit"] --> B["Requirements - Inventory, Orders, Loyalty"]
+    B --> C["JIRA Tickets and GitHub Issues"]
+    C --> D["Test Case Generation - UAT and Regression"]
+    D --> E1["InventorySync - SKU and Variant Testing"]
+    D --> E2["OrderBuilder - Frontend and API Flow"]
+    D --> E3["Loyalty Import - Customer Mapping"]
+    E1 --> F["PowerShell QA and R Dashboards"]
+    E2 --> G["Visual Snapshots and Swagger API Tests"]
+    E3 --> H["GitHub Actions and Loyalty Integrity Dashboard"]
+    F --> I["Anomaly Reports and GitHub Issues"]
     G --> I
     H --> I
-    I --> J[QA Sign-off + Go-Live Prep]
+    I --> J["QA Sign-off and Go-Live Preparation"]
+
+  
 ```
 
 ---
