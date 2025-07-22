@@ -29,7 +29,7 @@ Technical Business Analyst | QA Strategist | AI-Augmented Tester
 
 ## 🚀 Proposed POS Integration Upgrade — Pinto Ranch Scenario
 
-This hypothetical project simulates what Maurice can contribute at ResultsStack.
+This hypothetical project simulates what Maurice can contribute at ResultStack.
 
 ### 🎯 Objective
 
@@ -68,9 +68,9 @@ graph TD
 
 ---
 
-## 💡 Key Talking Points for ResultsStack Interview
+## 💡 Key Talking Points for ResultStack Interview
 
-* "At Pinto Ranch, I wasn't just a sales associate—I proactively built diagrams and researched Shopify POS upgrades. That same mindset is what I’d bring to ResultsStack."
+* "At Pinto Ranch, I wasn't just a sales associate—I proactively built diagrams and researched Shopify POS upgrades. That same mindset is what I’d bring to ResultStack."
 * "At WPP, all of our QA documentation and GitHub migration planning happened inside JIRA—so I’m fluent in using tickets as the single source of truth."
 * "I've built dashboards that test, alert, and explain—automated log monitoring, regression flagging, and real-time data visuals."
 
@@ -90,3 +90,101 @@ graph TD
 **GitHub:** [emcdo411](https://github.com/emcdo411)
 **Location:** Dallas / Fort Worth
 **Interests:** QA + AI Automation, Retail Tech, RShiny Dashboards
+
+---
+
+## 🧩 Core Modules
+
+### 1. **InventorySync AI**
+
+**Goal:** Sync legacy SKUs, variants, and quantities to Shopify POS while catching discrepancies.
+
+* ✅ PowerShell log ingestion
+* ✅ RShiny dashboard for mismatch visualization
+* ✅ GitHub Issues auto-generated from anomalies
+
+### 2. **CustomFitter Builder**
+
+**Goal:** Support custom product orders (e.g., boots, hats, exotic materials) built with Shopify metafields.
+
+* ✅ React + Vite frontend
+* ✅ Snapshot visual testing
+* ✅ Swagger endpoint simulations for custom product logic
+
+### 3. **WranglerRewards Mapper**
+
+**Goal:** Import legacy loyalty program data and track tagging, redemption, and retention alignment.
+
+* ✅ Automated tier mapping via Shopify API
+* ✅ GitHub Action for regression testing
+* ✅ R dashboard for loyalty validation breakdowns
+
+---
+
+## 🔄 Full Workflow Diagram (All Modules)
+
+```mermaid
+graph TD
+    A[Stakeholder Discovery + POS Audit]
+    A --> B[Requirements (Inventory + Orders + Loyalty)]
+    B --> C[JIRA Tickets / GitHub Issues]
+    C --> D[Test Case Generation (UAT + Regression)]
+    D --> E1[InventorySync: SKU + Variant Testing]
+    D --> E2[OrderBuilder: Frontend + API Flow]
+    D --> E3[Loyalty Import: Customer Mapping]
+    E1 --> F[PowerShell QA + R Dashboards]
+    E2 --> G[Visual Snapshots + Swagger API Tests]
+    E3 --> H[GitHub Actions + Loyalty Integrity Dash]
+    F --> I[Anomaly Reports + GitHub Issues]
+    G --> I
+    H --> I
+    I --> J[QA Sign-off + Go-Live Prep]
+```
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer       | Stack/Tools                                                                |
+| ----------- | -------------------------------------------------------------------------- |
+| Frontend    | React, Vite, Tailwind                                                      |
+| Backend/API | Node.js or FastAPI, Shopify Admin & Checkout API                           |
+| QA/Testing  | PowerShell, Swagger, GitHub Actions, Snapshot Testing, Percy.io (optional) |
+| Dashboards  | R + RShiny                                                                 |
+| DevOps      | GitHub Issues, Projects, Actions, Mermaid Diagrams                         |
+
+---
+
+## 📁 GitHub Repository Layout
+
+```bash
+trailsync-ai/
+├── README.md
+├── docs/
+│   ├── architecture.md
+│   ├── diagrams/
+│   │   └── pos-workflow.mmd
+│   └── SOPs/
+├── dashboards/
+│   ├── inventory_dash.R
+│   └── loyalty_monitor.R
+├── src/
+│   ├── orderbuilder_frontend/
+│   ├── loyalty_import/
+│   └── inventory_sync/
+├── tests/
+│   ├── swagger/
+│   ├── snapshots/
+│   └── powershell/
+├── .github/
+│   └── workflows/
+│       └── ci-qa-validation.yml
+└── issues/
+    ├── inventory-mismatch.md
+    ├── order-builder-failures.md
+    └── loyalty-tag-errors.md
+```
+
+---
+
+
