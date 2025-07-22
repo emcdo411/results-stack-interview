@@ -41,15 +41,16 @@ To provide a future-ready, QA-driven POS system upgrade for a retail brand (e.g.
 
 ```mermaid
 graph TD
-    A[Stakeholder Discovery] --> B[Requirements Gathering (POS, Shopify, CRM)]
+    A[Stakeholder Discovery] --> B[Requirements Gathering: POS, Shopify, CRM]
     B --> C[JIRA Documentation: User Stories + Acceptance Criteria]
-    C --> D[Test Case Design (UAT, Regression)]
-    D --> E[POS Integration Testing: Hardware + API Sim]
-    E --> F[Swagger Validation (CRM, Payments)]
+    C --> D[Test Case Design: UAT + Regression]
+    D --> E[POS Integration Testing: Hardware + API Simulation]
+    E --> F[Swagger Validation: CRM + Payment Endpoints]
     F --> G[Defect Tracking + Root Cause Analysis]
-    G --> H[Automated Dashboards (PowerShell + RShiny)]
-    H --> I[Go-Live Support + Change Mgmt (CAB)]
-    I --> J[Training Retail Staff + SOP Delivery]
+    G --> H[Automated Dashboards: PowerShell + RShiny]
+    H --> I[Go-Live Support + Change Management (CAB)]
+    I --> J[Retail Staff Training + SOP Delivery]
+
 ```
 
 ---
