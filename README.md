@@ -1,8 +1,8 @@
-# 🧪 ResultsStack Interview Showcase: QA + POS Integration Upgrade
+# 🧪 ResultStack Interview Showcase: QA + POS Integration Upgrade
 
 ## 📌 Project Overview
 
-This GitHub-style README outlines Maurice McDonald's professional experience, technical QA capabilities, and a proposed solution architecture for a modern retail POS upgrade, inspired by prior research conducted at Pinto Ranch. It is tailored to demonstrate strategic value for a Software QA Analyst role at ResultsStack.
+This GitHub-style README outlines Maurice McDonald's professional experience, technical QA capabilities, and a proposed solution architecture for a modern retail POS upgrade, inspired by prior research conducted at Pinto Ranch. It is tailored to demonstrate strategic value for a Software QA Analyst role at ResultStack.
 
 ---
 
